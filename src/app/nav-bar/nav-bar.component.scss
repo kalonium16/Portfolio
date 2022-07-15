@@ -1,0 +1,25 @@
+.active {
+  &:hover {
+    cursor: default;
+    color: #827397;
+  }
+  color: #827397;
+}
+a {
+  font-size: 1.3em;
+  color: #e9d5ca;
+
+  &:hover {
+    // cursor: default;
+    color: #827397;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .left {
+    margin-left: auto;
+    margin-right: 0;
+    li {
+      margin-right: 15px;
+    }
+  }
+}

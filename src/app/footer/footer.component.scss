@@ -1,0 +1,26 @@
+.left {
+  margin-left: auto;
+  margin-right: 0;
+  li {
+    margin-right: 15px;
+  }
+}
+
+a {
+  .icons {
+    color: black;
+  }
+
+  color: #e9d5ca;
+  i {
+    margin-right: 10px;
+  }
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}

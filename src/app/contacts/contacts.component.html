@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="row">
+        <a href="tel:380935080751"
+          ><i class="fa-solid fa-mobile fa-xl"> </i>+38(093)5080751</a
+        >
+      </div>
+      <div class="row">
+        <a href="mailto: kalon160895@gmail.com"
+          ><i class="fa-solid fa-envelope fa-xl"></i>kalon160895@gmail.com</a
+        >
+      </div>
+      <div class="row">
+        <a href="https://github.com/kalonium16"
+          ><i class="fa-brands fa-github fa-xl"></i>GitHub</a
+        >
+      </div>
+      <div class="row">
+        <a href="https://t.me/AntonLatanskyi"
+          ><i class="fa-brands fa-telegram fa-xl"></i>Telegram</a
+        >
+      </div>
+      <div class="row">
+        <a href="https://www.linkedin.com/in/anton-latanskyi-182a361b0/"
+          ><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a
+        >
+      </div>
+    </div>
+    <div class="col-md-8">
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="row">
+          <div class="col-12">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              ngModel
+              minlength="2"
+              required
+              name="name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              ngModel
+              name="email"
+              required
+              email
+            />
+          </div>
+          <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label"
+              >Phone Number</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="phone"
+              ngModel
+              name="phone"
+              minlength="8"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              id="Textarea"
+              rows="3"
+              ngModel
+              required
+              name="text"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success" [disabled]="!f.valid">
+          Contact Me
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

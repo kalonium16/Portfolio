@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+body {
+  // background: url("https://source.unsplash.com/twukN12EN7c/1920x1080") no-repeat
+  //   center center fixed;
+  background-color: #363062 !important;
+  color: #e9d5ca !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
