@@ -1,6 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
+      <h2>Contact Me On</h2>
       <div class="row">
         <a href="tel:380935080751"
           ><i class="fa-solid fa-mobile fa-xl"> </i>+38(093)5080751</a
@@ -12,23 +13,33 @@
         >
       </div>
       <div class="row">
-        <a href="https://github.com/kalonium16"
+        <a
+          href="https://github.com/kalonium16"
+          target="_blank"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-github fa-xl"></i>GitHub</a
         >
       </div>
       <div class="row">
-        <a href="https://t.me/AntonLatanskyi"
+        <a
+          href="https://t.me/AntonLatanskyi"
+          target="_blank"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-telegram fa-xl"></i>Telegram</a
         >
       </div>
       <div class="row">
-        <a href="https://www.linkedin.com/in/anton-latanskyi-182a361b0/"
+        <a
+          href="https://www.linkedin.com/in/anton-latanskyi-182a361b0/"
+          target="_blank"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a
         >
       </div>
     </div>
     <div class="col-md-8">
       <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <h2>or Send me message</h2>
         <div class="row">
           <div class="col-12">
             <label for="name" class="form-label">Full Name</label>
@@ -84,7 +95,7 @@
           </div>
         </div>
         <button type="submit" class="btn btn-success" [disabled]="!f.valid">
-          Contact Me
+          Send message!!
         </button>
       </form>
     </div>

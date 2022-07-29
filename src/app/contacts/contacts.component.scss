@@ -1,5 +1,7 @@
-.container {
-  margin-top: 25vh;
+@media only screen and (min-width: 700px) {
+  .container {
+    margin-top: 25vh;
+  }
 }
 
 .h1 {
@@ -44,4 +46,8 @@ a {
 .not-valid {
   color: #a94442;
   margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 20px;
 }

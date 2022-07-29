@@ -1,3 +1,105 @@
 <div class="container">
-  <div class="row">sert</div>
+  <div class="row">
+    <div class="col-lg-5 col-sm-12">
+      <div class="row">
+        <h1 class="text-center">Weather forecast app</h1>
+      </div>
+      <div class="row">
+        <p>
+          Created using Angular as a frontend framework, using data from GeoDB
+          Cities API for city search and OpenWeather API for weather and
+          forecast data. Hosted with Firebase using static hosting.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-7 col-sm-12">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[0]"
+              alt="Random first slide"
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[1]"
+              alt="Random second slide"
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[1]"
+              alt="Random second slide"
+              class="img-fluid"
+            />
+          </div>
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-lg-7 col-sm-12">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[0]"
+              alt="Random first slide"
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[1]"
+              alt="Random second slide"
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img
+              [src]="images2[1]"
+              alt="Random second slide"
+              class="img-fluid"
+            />
+          </div>
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="col-lg-5 col-sm-12">
+      <div class="row">
+        <h1 class="text-center">Weather forecast app</h1>
+      </div>
+      <div class="row">
+        <p>
+          Created using Angular as a frontend framework, using data from GeoDB
+          Cities API for city search and OpenWeather API for weather and
+          forecast data. Hosted with Firebase using static hosting.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>

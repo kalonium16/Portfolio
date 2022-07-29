@@ -7,11 +7,11 @@
 }
 
 a {
-  .icons {
-    color: black;
-  }
+  margin-bottom: 10px;
 
-  color: #e9d5ca;
+  .icons {
+    color: #e9d5ca;
+  }
   i {
     margin-right: 10px;
   }
@@ -23,4 +23,20 @@ a {
 span {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
 }
